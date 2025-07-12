@@ -9,6 +9,7 @@ from fastmcp import FastMCP
 mcp = FastMCP("mcp-proxy-server")
 
 # python mcp_proxy.py sse --port 8000 -- docker run -i --rm mcp/duckduckgo
+## TODO fix container not shutting down properly
 
 async def setup_proxy_tools(command_args):
     """Setup proxy tools by connecting to the external MCP server"""
